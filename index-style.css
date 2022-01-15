@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+body{
+    font-family: 'Poppins', sans-serif;
+    color: #FFFFFF;
+}
+.section-title{
+    font-size: 30px;
+    text-align: center;
+}
+.courses{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 25px;
+}
+.course{
+    width: 255px;
+    height: 270px;
+    background-color: #FFFFFF; 
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.26);
+}
+.coruse-info{
+    display: flex;
+    align-items: center;
+}
+.couese-banner img{
+    width: 230px;
+    height: 230px;
+}
+.fa-star{
+    font-size: 12px;
+}
+.fa-star.filled{
+    color: #FB8200;
+}
+.fa-star-half-alt.half-filled{
+    color: #FB8200;
+}
